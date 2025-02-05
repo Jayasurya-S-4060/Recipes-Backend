@@ -3,7 +3,7 @@ const connectDB = require("./config/db");
 const cors = require("cors");
 const recipeRoutes = require("./routes/recipeRoutes");
 require("dotenv").config();
-const render_url = process.env.Node_server;
+const render_url = "https://recipes-backend-5mp6.onrender.com";
 
 const app = express();
 
