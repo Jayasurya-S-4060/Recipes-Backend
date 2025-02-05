@@ -13,5 +13,5 @@ app.use(express.json());
 app.use("/api", recipeRoutes);
 
 app.listen(process.env.Node_server, () => {
-  console.log("Server running on port 3000");
+  console.log("Server running on render");
 });
